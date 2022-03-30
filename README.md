@@ -1,4 +1,4 @@
-Follow the steps to install Laravel Authentication in your application
+Run the Following commands to install Laravel Auth framework in your application.
 
 ## Install Laravel Globally in htdocs folder
 
@@ -36,7 +36,9 @@ npm run dev OR npm run development
 php artisan serve
 
 ## For Database Setup [Stop the Server]
-Create database according to the database name given in the .env file.
+Create database in phpmyadmin with the database name given in the .env file.
+
+## Migrate table in your database in phpmyadmin
 
 php artisan migrate
 
